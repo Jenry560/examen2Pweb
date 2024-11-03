@@ -1,0 +1,57 @@
+﻿@page "/visitas"
+@using ParcialDosWeb.Models;
+@inject ParcialDosContext context;
+@rendermode InteractiveServer
+@inject NavigationManager navigation
+
+
+<PageTitle>Visitas</PageTitle>
+
+<div class="col">
+    <button class="btn btn-primary" @onclick="navegarNuevaVista">
+        Crear Visita
+    </button>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Visita Id</th>
+                <th>Telefono</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var visita in VisitasLista)
+            {
+                <tr>
+                    <td>@visita.VisitaId</td>
+                    <td>@visita.Telefono</td>
+                    <td>@visita.Nombre</td>
+                    <td>@visita.Apellido</td>
+                    <td>@visita.Correo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
+
+@code {
+
+    List<Visita> VisitasLista = new List<Visita>();
+
+    protected override void OnInitialized()
+    {
+        VisitasLista = context.Visitas.ToList();
+    }
+
+    private void navegarNuevaVista()
+    {
+        navigation.NavigateTo("/visita");
+    }
+}

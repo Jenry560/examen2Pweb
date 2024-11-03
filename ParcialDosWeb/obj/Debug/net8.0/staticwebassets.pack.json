@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Deskop\\Itla\\examen2Pweb\\parcialDosWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ParcialDosWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ParcialDosWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Deskop\\Itla\\examen2Pweb\\parcialDosWeb\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Deskop\\Itla\\examen2Pweb\\parcialDosWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Deskop\\Itla\\examen2Pweb\\parcialDosWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Deskop\\Itla\\examen2Pweb\\parcialDosWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ParcialDosWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ParcialDosWeb.props",
+      "PackagePath": "build\\ParcialDosWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ParcialDosWeb.props",
+      "PackagePath": "buildMultiTargeting\\ParcialDosWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ParcialDosWeb.props",
+      "PackagePath": "buildTransitive\\ParcialDosWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
